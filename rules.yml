@@ -43,8 +43,6 @@ rules:
     expected: 辛うじて
   - pattern: きわめて
     expected: 極めて
-  - pattern: ことに
-    expected: 殊に
   - pattern: さらに
     expected: 更に
   - pattern: すくなくとも
