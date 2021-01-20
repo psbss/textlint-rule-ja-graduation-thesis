@@ -1,0 +1,111 @@
+version: 1
+
+rules:
+  - pattern: かれ
+    expected: 彼
+  - pattern: なに
+    expected: 何
+  - pattern: ぼく
+    expected: 僕
+  - pattern: わたし
+    expected: 私
+  - pattern: われわれ
+    expected: 我々
+  - patterns: かならず
+    expected: 必ず
+  - pattern: すこし
+    expected: 少し
+  - pattern: すでに
+    expected: 既に
+  - pattern: ただちに
+    expected: 直ちに
+  - pattern: はなはだ
+    expected: 甚だ
+  - pattern: ふたたび
+    expected: 再び
+  - pattern: まったく
+    expected: 全く
+  - pattern: もっとも
+    expected: 最も
+  - pattern: もっぱら
+    expected: 專ら
+  - pattern: あまり
+    expected: 余り
+  - pattern: いたって
+    expected: 至って
+  - pattern: おおいに
+    expected: 大いに
+  - pattern: おそらく
+    expected: 恐らく
+  - pattern: かならずしも
+    expected: 必ずしも
+  - pattern: かろうじて
+    expected: 辛うじて
+  - pattern: きわめて
+    expected: 極めて
+  - pattern: ことに
+    expected: 殊に
+  - pattern: さらに
+    expected: 更に
+  - pattern: すくなくとも
+    expected: 少なくとも
+  - pattern: たえず
+    expected: 絶えず
+  - pattern: おたがいに
+    expected: お互いに
+  - pattern: たとえば
+    expected: 例えば
+  - pattern: ついで
+    expected: 次いで
+  - pattern: つとめて
+    expected: 努めて
+  - pattern: つねに
+    expected: 常に
+  - pattern: はじめて
+    expected: 初めて
+  - pattern: はたして
+    expected: 果たして
+  - pattern: わりに
+    expected: 割に
+  - pattern: がいして
+    expected: 概して
+  - pattern: じつに
+    expected: 実に
+  - pattern: せつに
+    expected: 切に
+  - pattern: たいして
+    expected: 大して
+  - pattern: とくに
+    expected: 特に
+  - pattern: とつぜん
+    expected: 突然
+  - pattern: むろん
+    expected: 無論
+  - pattern: あかるく
+    expected: 明るく
+  - pattern: おおきな
+    expected: 大きな
+  - pattern: くる
+    expected: 来る
+  - pattern: さる
+    expected: 去る
+  - pattern: ちいさな
+    expected: 小さな
+  - pattern: わが
+    expected: 我が
+  - pattern: 全て
+    expected: すべて
+  - pattern: ∧
+    expected: かつ
+  - pattern: 故に
+    expected: ゆえに
+  - pattern: 
+        - 又は
+        - ∨
+    expected: または
+  - pattern: および
+    expected: 及び
+  - pattern: ならびに
+    expected: 並びに
+  - pattern: もしくは
+    expected: 若しくは
