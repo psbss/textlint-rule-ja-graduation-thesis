@@ -109,3 +109,23 @@ rules:
     expected: 並びに
   - pattern: もしくは
     expected: 若しくは
+  - pattern: 出来る
+    expected: できる
+  - pattern: できごころ
+    expected: 出来心
+  - pattern: できあがり
+    expected: 出来上がり
+  - pattern: 以て
+    expected: もって
+  - pattern: 此
+    expected: この
+  - pattern: 之
+    expected: これ
+  - pattern: 其
+    expected: その
+  - pattern: 為
+    expected: ため
+  - pattern: 等
+    expected: ら
+  - pattern: 言う
+    expected: いう
